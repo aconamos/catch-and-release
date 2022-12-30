@@ -21,25 +21,20 @@ data:extend{fish_placeable}
 -- fish_entity
 
 local fish = table.deepcopy(data.raw["fish"]["fish"])
-fish.minable = {mining_time = 1, result = "fish-placeable", count = 1}
+fish.minable = {mining_time = 0.4, result = "fish-placeable", count = 1}
 
 data:extend{fish}
 
 -- fish_crafting
--- todo: seems like I had issues here earlier ¯\_(ツ)_/¯
 
 local placeable_to_raw = {
     name = "placeable-to-raw",
     type = "recipe",
-    icon = "__base__/graphics/icons/fish.png",
-    icon_size = 64,
     ingredients = {{"fish-placeable", 1}},
     result = "raw-fish",
     result_count = 5,
-    category = "crafting",
     enabled = true,
-    show_amount_in_title = true,
-    order = "z"
+    show_amount_in_title = true
 }
 
 data:extend{placeable_to_raw}

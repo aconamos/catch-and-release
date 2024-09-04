@@ -1,5 +1,8 @@
 # catch-and-release
 
+## the devs shot this mod dead 😭
+## they silently patched the game even though I DID IT FIRST 😭
+
 Save the fish! This mod changes the item you get from mining fish to a placeable fish item that allows you to rehome fish from your nasty green polluted ponds.
 
 Compatibility with:
